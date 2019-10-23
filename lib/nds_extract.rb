@@ -10,8 +10,9 @@ def directors_totals(nds)
     while title_index < nds[director_index][:movies].length do
       cumulative += nds[director_index][:movies][title_index][:worldwide_gross]
       title_index += 1
-      p result[director_name] = cumulative
+      result[director_name] = cumulative
     end
     director_index += 1
   end
+  p result
 end
