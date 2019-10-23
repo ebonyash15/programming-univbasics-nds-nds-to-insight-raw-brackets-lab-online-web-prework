@@ -3,7 +3,6 @@ require 'directors_database'
 def directors_totals(nds)
   result = {}
   director_index = 0
-  cumulative_gross = []
   while director_index < nds.length do
     cumulative = 0
     title_index = 0
